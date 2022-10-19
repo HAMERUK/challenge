@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  width: 1440px;
+  padding-top: 100px;
+}
+main {
+  margin: 0 auto;
+  background-color: #fff;
+  height: 500px;
+  width: 650px;
+  border-radius: 10px;
+
+  display: flex;
+  gap: 20px;
+}
+.container {
+  padding: 24px;
+}
+
+h1 {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  margin: 20px 0;
+  color: hsl(212, 21%, 14%);
+}
+span {
+  letter-spacing: 5px;
+  font-size: 14px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.5;
+  font-size: 14px;
+}
+.price-tag {
+  display: flex;
+  gap: 30px;
+  margin: 40px 0;
+  align-items: center;
+}
+.price {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: hsl(158, 36%, 37%);
+}
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 16px 68px;
+  cursor: pointer;
+
+  display: flex;
+  gap: 14px;
+}
+button:hover,
+button:active {
+  background-color: hsl(158, 36%, 15%);
+}
